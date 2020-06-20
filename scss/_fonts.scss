@@ -1,0 +1,169 @@
+@font-face {
+    font-family: "Century Gothic";
+    src: url("../fonts/CenturyGothic-Bold.eot");
+    src: url("../fonts/CenturyGothic-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/CenturyGothic-Bold.woff2") format("woff2"), url("../fonts/CenturyGothic-Bold.woff") format("woff"), url("../fonts/CenturyGothic-Bold.ttf") format("truetype"), url("../fonts/CenturyGothic-Bold.svg#CenturyGothic-Bold") format("svg");
+    font-weight: bold;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: "Century Gothic";
+    src: url("../fonts/CenturyGothic-Bold.eot");
+    src: url("../fonts/CenturyGothic-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/CenturyGothic-Bold.woff2") format("woff2"), url("../fonts/CenturyGothic-Bold.woff") format("woff"), url("../fonts/CenturyGothic-Bold.ttf") format("truetype"), url("../fonts/CenturyGothic-Bold.svg#CenturyGothic-Bold") format("svg");
+    font-weight: 500;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: "Century Gothic";
+    src: url("../fonts/CenturyGothic.eot");
+    src: url("../fonts/CenturyGothic.eot?#iefix") format("embedded-opentype"), url("../fonts/CenturyGothic.woff2") format("woff2"), url("../fonts/CenturyGothic.woff") format("woff"), url("../fonts/CenturyGothic.ttf") format("truetype"), url("../fonts/CenturyGothic.svg#CenturyGothic") format("svg");
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+
+
+
+@font-face {
+    font-family: 'Dharma Gothic E';
+    src: url('../fonts/DharmaGothicE-ExLight.eot');
+    src: local('Dharma Gothic E ExLight'), local('DharmaGothicE-ExLight'),
+        url('../fonts/DharmaGothicE-ExLight.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/DharmaGothicE-ExLight.woff2') format('woff2'),
+        url('../fonts/DharmaGothicE-ExLight.woff') format('woff'),
+        url('../fonts/DharmaGothicE-ExLight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Dharma Gothic E';
+    src: url('../fonts/DharmaGothicE-RegularItalic.eot');
+    src: local('Dharma Gothic E Regular Italic'), local('DharmaGothicE-RegularItalic'),
+        url('../fonts/DharmaGothicE-RegularItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/DharmaGothicE-RegularItalic.woff2') format('woff2'),
+        url('../fonts/DharmaGothicE-RegularItalic.woff') format('woff'),
+        url('../fonts/DharmaGothicE-RegularItalic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Dharma Gothic E';
+    src: url('../fonts/DharmaGothicE-ExBoldItalic.eot');
+    src: local('Dharma Gothic E ExBold Italic'), local('DharmaGothicE-ExBoldItalic'),
+        url('../fonts/DharmaGothicE-ExBoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/DharmaGothicE-ExBoldItalic.woff2') format('woff2'),
+        url('../fonts/DharmaGothicE-ExBoldItalic.woff') format('woff'),
+        url('../fonts/DharmaGothicE-ExBoldItalic.ttf') format('truetype');
+    font-weight: 800;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Dharma Gothic E';
+    src: url('../fonts/DharmaGothicE-HeavyItalic.eot');
+    src: local('Dharma Gothic E Heavy Italic'), local('DharmaGothicE-HeavyItalic'),
+        url('../fonts/DharmaGothicE-HeavyItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/DharmaGothicE-HeavyItalic.woff2') format('woff2'),
+        url('../fonts/DharmaGothicE-HeavyItalic.woff') format('woff'),
+        url('../fonts/DharmaGothicE-HeavyItalic.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Dharma Gothic E';
+    src: url('../fonts/DharmaGothicE-ExLightItalic.eot');
+    src: local('Dharma Gothic E ExLight Italic'), local('DharmaGothicE-ExLightItalic'),
+        url('../fonts/DharmaGothicE-ExLightItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/DharmaGothicE-ExLightItalic.woff2') format('woff2'),
+        url('../fonts/DharmaGothicE-ExLightItalic.woff') format('woff'),
+        url('../fonts/DharmaGothicE-ExLightItalic.ttf') format('truetype');
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Dharma Gothic E';
+    src: url('../fonts/DharmaGothicE-ExBold.eot');
+    src: local('Dharma Gothic E ExBold'), local('DharmaGothicE-ExBold'),
+        url('../fonts/DharmaGothicE-ExBold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/DharmaGothicE-ExBold.woff2') format('woff2'),
+        url('../fonts/DharmaGothicE-ExBold.woff') format('woff'),
+        url('../fonts/DharmaGothicE-ExBold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Dharma Gothic E';
+    src: url('../fonts/DharmaGothicE-Bold.eot');
+    src: local('Dharma Gothic E Bold'), local('DharmaGothicE-Bold'),
+        url('../fonts/DharmaGothicE-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/DharmaGothicE-Bold.woff2') format('woff2'),
+        url('../fonts/DharmaGothicE-Bold.woff') format('woff'),
+        url('../fonts/DharmaGothicE-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Dharma Gothic E';
+    src: url('../fonts/DharmaGothicE-Light.eot');
+    src: local('Dharma Gothic E Light'), local('DharmaGothicE-Light'),
+        url('../fonts/DharmaGothicE-Light.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/DharmaGothicE-Light.woff2') format('woff2'),
+        url('../fonts/DharmaGothicE-Light.woff') format('woff'),
+        url('../fonts/DharmaGothicE-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Dharma Gothic E';
+    src: url('../fonts/DharmaGothicE-Heavy.eot');
+    src: local('Dharma Gothic E Heavy'), local('DharmaGothicE-Heavy'),
+        url('../fonts/DharmaGothicE-Heavy.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/DharmaGothicE-Heavy.woff2') format('woff2'),
+        url('../fonts/DharmaGothicE-Heavy.woff') format('woff'),
+        url('../fonts/DharmaGothicE-Heavy.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Dharma Gothic E';
+    src: url('../fonts/DharmaGothicE-LightItalic.eot');
+    src: local('Dharma Gothic E Light Italic'), local('DharmaGothicE-LightItalic'),
+        url('../fonts/DharmaGothicE-LightItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/DharmaGothicE-LightItalic.woff2') format('woff2'),
+        url('../fonts/DharmaGothicE-LightItalic.woff') format('woff'),
+        url('../fonts/DharmaGothicE-LightItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Dharma Gothic E';
+    src: url('../fonts/DharmaGothicE-Regular.eot');
+    src: local('Dharma Gothic E Regular'), local('DharmaGothicE-Regular'),
+        url('../fonts/DharmaGothicE-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/DharmaGothicE-Regular.woff2') format('woff2'),
+        url('../fonts/DharmaGothicE-Regular.woff') format('woff'),
+        url('../fonts/DharmaGothicE-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
