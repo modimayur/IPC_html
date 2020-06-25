@@ -647,6 +647,10 @@ body {
                     font-size: 16px;
                     padding: 5px 10px;
                 }
+                &.badgeBox-greay{
+                    padding: 7px 10px;
+                    background-color: #c2c2c2;
+                }
             }
         }
 
@@ -817,6 +821,9 @@ body {
                     padding:0 0px;
                     width:auto;
                     height: 180px;
+                    @media(max-width:767px){
+                        height: 100px;
+                    }
                     img{
                     max-width: 100%;
                     max-height: 100%;
@@ -842,7 +849,11 @@ body {
                                 font-size: 16px;
                                 font-weight: normal;
                                 color: #fff;
-    
+                                @media(max-width:767px){
+                                    font-size: 12px;
+                                    margin-bottom: 10px;
+                                    padding: 4px 8px;
+                                }
                                 &.active {
                                     background-color: #000;
                                 }
@@ -1053,6 +1064,128 @@ body {
                     border-color: #000;
                     outline: none;
                     box-shadow: none;
+                }
+            }
+            &.content-partners{
+                .company_row{
+                    margin-bottom: 30px;
+                }
+            }
+            &.my-profile-Section{
+                .list-unstyled{
+                    margin-top: 0px;
+                    li{
+                        margin-bottom: 15px;
+                    }
+                }
+                .btn{
+                    &.btn-dark {
+                        background-color: #000;
+                        border-color: #000;
+                        color: #fff;
+                        &:focus,
+                        &:active,
+                        &:hover{
+                            background: #2f2f31;
+                            border-color: #2f2f31;
+                            color:#fff;
+                        }
+                    }
+            
+                    &.btn-light {
+                        background-color: #a1a1a1;
+                        border-color: #a1a1a1;
+                        color: #fff;
+                        &:focus,
+                        &:active,
+                        &:hover{
+                            background: #2f2f31;
+                            border-color: #2f2f31;
+                            color:#fff;
+                        }
+                    }
+                }
+            }
+            &.edit-profile-details{
+                .list-unstyled{
+                    margin-top: 35px;
+                    li{
+                        margin-top: 15px;
+                    }
+                }
+                .btn{
+                    &.btn-dark {
+                        background-color: #000;
+                        border-color: #000;
+                        color: #fff;
+                        &:focus,
+                        &:active,
+                        &:hover{
+                            background: #2f2f31;
+                            border-color: #2f2f31;
+                            color:#fff;
+                        }
+                    }
+            
+                    &.btn-light {
+                        background-color: #a1a1a1;
+                        border-color: #a1a1a1;
+                        color: #fff;
+                        &:focus,
+                        &:active,
+                        &:hover{
+                            background: #2f2f31;
+                            border-color: #2f2f31;
+                            color:#fff;
+                        }
+                    }
+                }
+            }
+            &.my-profile-Section{
+                .profile-photos-grid{
+                    .profile_photo{
+                        @media(min-width:480px){
+                            &.profile_photo-medium{
+                                width:calc(58.333333% - 10px);
+                            }
+                            &.profile_photo-small{
+                                width:calc(41.666667% - 10px);
+                            }
+                        }
+                    }
+                }
+                .list-unstyled{
+                    margin-top: 35px;
+                    li{
+                        margin-top: 15px;
+                    }
+                }
+                .btn{
+                    &.btn-dark {
+                        background-color: #000;
+                        border-color: #000;
+                        color: #fff;
+                        &:focus,
+                        &:active,
+                        &:hover{
+                            background: #2f2f31;
+                            border-color: #2f2f31;
+                            color:#fff;
+                        }
+                    }
+            
+                    &.btn-light {
+                        background-color: #a1a1a1;
+                        border-color: #a1a1a1;
+                        color: #fff;
+                        &:focus,
+                        &:active,
+                        &:hover{
+                            background: #2f2f31;
+                            border-color: #2f2f31;
+                            color:#fff;
+                        }
+                    }
                 }
             }
         }
