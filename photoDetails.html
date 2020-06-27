@@ -59,27 +59,72 @@
 
     </header>
     <section class="scroll content">
-        <div class="main-Section my-profile-Section pb-3 pb-lg-5">
+        <div class="main-Section photoDetails-Section pb-3 pb-lg-5">
             <div class="container">
-                <h4>Edit Photo Details,</h4>
+                <img class="img-fluid w-100" src="./images/photoDetails.jpg" alt="" />
+                
+                <ul class="shareSocialLink">
+                    <li><a class="socialLink_facebook" href="#"><i class="fab fa-facebook-f"></i></a></li>
+                    <li><a class="socialLink_instagram" href="#"><i class="fab fa-twitter"></i></a></li>
+                    <li><a class="socialLink_youtube" href="#"><i class="fab fa-instagram"></i></a></li>
+                    <li><a class="socialLink_twitter" href="#"><i class="fab fa-youtube"></i></a></li>
+                </ul>
+                
+                <h2 class="mb-0">Rajasthan Pushkar</h2>
+                <div class="mb-3 h6 font-weight-normal">by <u>Tarun Shetty</u></div>
+                
                 <div class="row">
-                    <div class="col-md-6 mb-3 mb-md-4">
-                        <div class="">
-                            <button class="btn btn-dark">Profile</button>
-                            <button class="btn btn-light">Photos</button>
+                    <div class="col-lg-4">
+                        <p class="text-justify">Cradled by hills that roll far out into the horizon, Pushkar is a city of temples and stories of staggering ancientness — including those of the Trimurti. It is the one of the very few places where the deity Brahma is worshipped. Located in Ajmer, a district in the Indian state of Rajasthan, Pushkar is one of the five most sacred pilgrimage sites, and attracts travellers from across the globe, especially for its annual Camel Fair.</p>
+                        <p class="text-justify">On the shore of Pushkar Lake lies one of India’s oldest cities. Legend has it that Lord Shiva wept so much over the demise of his wife, Sati, that his tears created one </p>
+                    </div>
+                    <div class="col-lg-8">
+                        <div class="row">
+                            <div class="col-lg-4">
+                                <ul class="list-unstyled">
+                                    <li class="d-flex justify-content-between"><span><b>Category : Portraits</b></span></li>
+                                    <li class="d-flex justify-content-between"><span><b>Views :</b> </span></li>
+                                    <li class="d-flex justify-content-between"><span><b>Model :</b>  </span></li>
+                                    <li class="d-flex justify-content-between"><span><b>Aperture :</b>  </span></li>
+                                    <li class="d-flex justify-content-between"><span><b>ISO :</b>  </span></li>
+                                    <li class="d-flex justify-content-between"><span><b>Exposure :</b>  </span></li>
+                                </ul>
+                            </div>
+                            <div class="col-lg-8">
+                                <div class="embed-responsive embed-responsive-4by3">
+                                    <iframe class="embed-responsive-item" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d224345.8392309148!2d77.06889712477782!3d28.52758200665241!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfd5b347eb62d%3A0x52c2b7494e204dce!2sNew%20Delhi%2C%20Delhi!5e0!3m2!1sen!2sin!4v1593198683221!5m2!1sen!2sin" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                                </div>     
+                            </div>
+                            
                         </div>
                     </div>
                 </div>
 
-                <div class="profile-photos-grid">
-                    <div class="profile_photo profile_photo-medium"><a href="#"><img class="w-100" src="./images/my_profile_photo_1.jpg" alt="" /><i class="far fa-edit"></i></a></div>
-                    <div class="profile_photo profile_photo-small"><a href="#"><img class="w-100" src="./images/my_profile_photo_2.jpg" alt="" /><i class="far fa-edit"></i></a></div>
-                    <div class="profile_photo profile_photo-medium"><a href="#"><img class="w-100" src="./images/my_profile_photo_3.jpg" alt="" /><i class="far fa-edit"></i></a></div>
-                    <div class="profile_photo profile_photo-small"><a href="#"><img class="w-100" src="./images/my_profile_photo_4.jpg" alt="" /><i class="far fa-edit"></i></a></div>
+
+                <div class="row mt-5">
+                    <div class="col-6 col-md-3 mb-4 mb-md-0">
+                        <img class="img-fluid" src="./images/PhotoDetails_thumb_1.jpg" alt="" />
+                    </div>
+                    <div class="col-6 col-md-3 mb-4 mb-md-0">
+                        <img class="img-fluid" src="./images/PhotoDetails_thumb_2.jpg" alt="" />
+                    </div>
+                    <div class="col-6 col-md-3 mb-4 mb-md-0">
+                        <img class="img-fluid" src="./images/PhotoDetails_thumb_3.jpg" alt="" />
+                    </div>
+                    <div class="col-6 col-md-3 mb-4 mb-md-0">
+                        <img class="img-fluid" src="./images/PhotoDetails_thumb_4.jpg" alt="" />
+                    </div>
+
                 </div>
+
+                <img class="img-fluid w-100 mt-3 mt-lg-4" src="https://via.placeholder.com/1140x255.png?text=Banner+Ads" alt="" />
+
             </div>
         </div>
+
+
     </section>
+
 
     <footer class="main-footer footer ">
 
@@ -144,34 +189,13 @@
 
     </footer>
 
+
     <script src="./js/jquery.min.js"></script>
     <script src="./js/popper.min.js"></script>
     <script src="./js/bootstrap.min.js"></script>
     <script src="./js/wow.min.js"></script>
     <script src="./js/owl.carousel.min.js"></script>
     <script src="./js/script.js"></script>
-    <script src="./js/jquery.isotope.min.js"></script>
-    <script src="./js/packery-mode.pkgd.min.js"></script>
-    <script src="./js/script.js"></script>
-    <script>
-        $(window).load(function () {
-            var $container = $('.profile-photos-grid');
-            $container.isotope({
-                filter: '*',
-                itemSelector: '.profile_photo',
-                layoutMode: 'packery',
-                packery: {
-                    gutter: 10,
-                    stagger: 0
-                },
-                animationOptions: {
-                    duration: 750,
-                    easing: 'linear',
-                    queue: false
-                }
-            });
-        });
-    </script>
 </body>
 
 </html>

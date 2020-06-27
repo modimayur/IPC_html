@@ -59,23 +59,20 @@
 
     </header>
     <section class="scroll content">
-        <div class="main-Section my-profile-Section pb-3 pb-lg-5">
+        <div class="main-Section photoUpload-Section pb-3 pb-lg-5">
             <div class="container">
-                <h4>Edit Photo Details,</h4>
-                <div class="row">
-                    <div class="col-md-6 mb-3 mb-md-4">
-                        <div class="">
-                            <button class="btn btn-dark">Profile</button>
-                            <button class="btn btn-light">Photos</button>
-                        </div>
+                <div class="text-center">
+                    
+                    <h5>Upload Photo</h5>
+                    <div class="btn btn-lg btn-primary pl-lg-5 pr-lg-5">Upload</div>
+                    
+                    <p class="mt-4">Or drag and drop photos anywhere on this page</p>
+                    
+                    <div class="mt-5">
+                    <h5>Photo requirements</h5>
+                    <p class="text-muted">Maximum . photo size is 3 MB per photo<br>No watermarks, logos, or borders<br>Photos uploaded should have been clicked in India only.</p>
                     </div>
-                </div>
-
-                <div class="profile-photos-grid">
-                    <div class="profile_photo profile_photo-medium"><a href="#"><img class="w-100" src="./images/my_profile_photo_1.jpg" alt="" /><i class="far fa-edit"></i></a></div>
-                    <div class="profile_photo profile_photo-small"><a href="#"><img class="w-100" src="./images/my_profile_photo_2.jpg" alt="" /><i class="far fa-edit"></i></a></div>
-                    <div class="profile_photo profile_photo-medium"><a href="#"><img class="w-100" src="./images/my_profile_photo_3.jpg" alt="" /><i class="far fa-edit"></i></a></div>
-                    <div class="profile_photo profile_photo-small"><a href="#"><img class="w-100" src="./images/my_profile_photo_4.jpg" alt="" /><i class="far fa-edit"></i></a></div>
+                    
                 </div>
             </div>
         </div>
@@ -144,34 +141,13 @@
 
     </footer>
 
+
     <script src="./js/jquery.min.js"></script>
     <script src="./js/popper.min.js"></script>
     <script src="./js/bootstrap.min.js"></script>
     <script src="./js/wow.min.js"></script>
     <script src="./js/owl.carousel.min.js"></script>
     <script src="./js/script.js"></script>
-    <script src="./js/jquery.isotope.min.js"></script>
-    <script src="./js/packery-mode.pkgd.min.js"></script>
-    <script src="./js/script.js"></script>
-    <script>
-        $(window).load(function () {
-            var $container = $('.profile-photos-grid');
-            $container.isotope({
-                filter: '*',
-                itemSelector: '.profile_photo',
-                layoutMode: 'packery',
-                packery: {
-                    gutter: 10,
-                    stagger: 0
-                },
-                animationOptions: {
-                    duration: 750,
-                    easing: 'linear',
-                    queue: false
-                }
-            });
-        });
-    </script>
 </body>
 
 </html>
