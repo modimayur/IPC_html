@@ -182,12 +182,33 @@
     
       </footer>
     
+
+
+<!-- Modal -->
+<div class="modal fade" id="thankYouModal" tabindex="-1" role="dialog" aria-labelledby="thankYouModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      
+      <div class="modal-body">
+        <button type="button" class="btn btn-dark" data-dismiss="modal">Close</button>
+        <h5>Thank You for Registering !!!</h5>
+        <p>A verificiation mail has been send to your personal mail id.</br><a href="#">Click the link to verify.</a></p>
+        <p>We request you to check your spam folder as well.</p>
+        <div class="text-right mainlogo"><img src="./images/mainlogo_white.png" /></div>
+      </div>
+    </div>
+  </div>
+</div>
+      
       <script src="./js/jquery.min.js"></script>
       <script src="./js/popper.min.js"></script>
       <script src="./js/bootstrap.min.js"></script>
       <script src="./js/wow.min.js"></script>
       <script src="./js/owl.carousel.min.js"></script>
       <script src="./js/script.js"></script>
+      <script>
+        $('#thankYouModal').modal('show')
+      </script>
 </body>
 
 </html>
